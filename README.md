@@ -4,6 +4,14 @@ A movies website created in Express &amp; EJS.
 
 This project was part of semster 5 network's course
 
+### Features:
+- Register new user
+- Login
+- view movie categories
+- select a movie to view
+- add to watchlist
+- search
+
 ![action movie](https://user-images.githubusercontent.com/47950134/165768048-14113b95-5816-43d1-a25b-482b67ba40b6.png)
 
 
