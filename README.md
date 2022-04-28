@@ -13,6 +13,7 @@ This project was part of semster 5 network's course. The purpose of the project 
 - add to watchlist
 - search
 
+### Screenshots:
 ![action movie](https://user-images.githubusercontent.com/47950134/165768048-14113b95-5816-43d1-a25b-482b67ba40b6.png)
 
 
