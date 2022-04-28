@@ -2,7 +2,8 @@
 
 A movies website created in Express &amp; EJS.
 
-This project was part of semster 5 network's course
+This project was part of semster 5 network's course. The purpose of the project was to learn the essence of the get and post requests in express, that's why styling wasn't the main focus.
+
 
 ### Features:
 - Register new user
@@ -16,5 +17,3 @@ This project was part of semster 5 network's course
 
 
 ![drama movie](https://user-images.githubusercontent.com/47950134/165766976-cb8fca31-3d77-4099-9feb-28a5d5134dae.png)
-
-### The purpose of the project was to learn the essence of the get and post requests in express, that's why styling wasn't the main focus.
