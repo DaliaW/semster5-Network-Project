@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+/* img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+} */
+        body {
+            /* <img src="paris.jpg" alt="Paris" style="width:150px"> */
+
+            background-image: url("background2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            }
+        h1 {
+            color: white;
+            text-align: center;
+            -webkit-text-stroke: 1px blue;
+        }
+        .cont {
+            position:relative;
+            left:600px;
+            top:50px;
+            color: white;
+            -webkit-text-stroke: 0.5px black;
+        }
+        .header {
+            padding: 1.618em 0 0;
+ margin-bottom: 3.631em;
+ border-bottom: 4px double #e8e4e3;
+ clear: both;
+ position: relative;
+ z-index: 9999;/* set this to something high*/
+ background-color:#fff; /* so you can see it is a block */
+ min-width:100%; 
+ height: 24px;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+
+<div>
+
+    </div>>
+<body>
+    
+    <div class="container">
+        <h1>Registration</h1>
+    </div>
+    <div class="cont">
+        <form method="POST" action='/register'>
+            Username: <br>
+            <input type="text" id="user" name="username"> <br>
+            Password: <br>
+            <input type="password" id="password" name="password"> <br> <br>
+            <input type="submit" id="simple_click" class="btn btn-secondary" value="Register"> <br>
+            <h2><%=msg%></h2>
+        </form>
+    </div>
+    <!-- <div class="popup" onclick="myFunction()">Click me!
+        <span class="popuptext" id="myPopup">registration successful</span>
+      </div>
+      <script>
+
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script> -->
+
+</body>
+
+</html>
